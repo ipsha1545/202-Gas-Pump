@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class CardSlot extends Actor
+public class CardSlot extends Actor implements IComponent
 {
     /**
      * Act - do whatever the CardSlot wants to do. This method is called whenever

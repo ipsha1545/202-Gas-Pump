@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class SidePane here.
+ * Write a description of class LeftMenuButton here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class SidePane extends Actor
+public class LeftMenuButton extends Actor implements IComponent
 {
     /**
-     * Act - do whatever the SidePane wants to do. This method is called whenever
+     * Act - do whatever the LeftMenuButton wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 

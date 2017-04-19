@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ReceiptPrinter extends Actor
+public class ReceiptPrinter extends Actor implements IComponent
 {
     /**
      * Act - do whatever the ReceiptPrinter wants to do. This method is called whenever

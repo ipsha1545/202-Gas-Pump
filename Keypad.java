@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Keypad extends Actor
+public class Keypad extends Actor implements IComponent
 {
     /**
      * Act - do whatever the Keypad wants to do. This method is called whenever
