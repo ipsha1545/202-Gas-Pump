@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GasStationMachine
+comment0.text=\n\ Write\ a\ description\ of\ class\ GasStationMachine\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=GasStationMachine()
+comment2.params=myCS\ myC\ myS\ myK\ myRP\ myF\ myN\ myN2\ myN3\ array
+comment2.target=GasStationMachine(CardSlot,\ Card,\ Screen,\ Keypad,\ ReceiptPrinter,\ Fuel,\ Nozzle,\ Nozzle,\ Nozzle,\ Button[])
+comment3.params=
+comment3.target=void\ act()
+numComments=4
