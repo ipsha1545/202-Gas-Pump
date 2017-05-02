@@ -14,6 +14,6 @@ public class Screen extends Actor implements IComponent
      */
     public void act() 
     {
-        // Add your action code here.
+        
     }    
 }
