@@ -23,6 +23,8 @@ public class GasPumpWorld extends World
         addObject(new LeftMenuButton(), 100, 220);
         addObject(new LeftMenuButton(), 100, 280);
         addObject(new CardSlot(), 675, 125);
+        addObject(new Card(), 750, 125);
+        addObject( new Nozzle(1), 750, 400 );
     }
     
 }
