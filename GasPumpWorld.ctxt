@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=GasPumpWorld
 comment1.params=
-comment1.target=GasPumpWorld()
+comment1.target=OriginalCard\ getOriginalCard()
 comment2.params=
-comment2.target=void\ prepare()
-numComments=3
+comment2.target=GasPumpMachine\ getGasPumpMachine()
+comment3.params=
+comment3.target=GasPumpWorld()
+comment4.params=
+comment4.target=void\ prepare()
+numComments=5

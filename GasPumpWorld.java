@@ -20,8 +20,8 @@ public class GasPumpWorld extends World
                               };
                               
    public CardSlot cardSlot = new CardSlot();                              
-   public Card originalCard = new Card(0);
-   public Card duplicateCard =new Card(1);
+   public OriginalCard originalCard = new OriginalCard();
+   public DuplicateCard duplicateCard =new DuplicateCard();
    
    public ReceiptPrinter receiptPrinter = new ReceiptPrinter();
    
@@ -31,7 +31,14 @@ public class GasPumpWorld extends World
    
    public GasPumpMachine gasPumpMachine = new GasPumpMachine(screen, buttons, menuButtons, cardSlot, originalCard, duplicateCard, receiptPrinter, nozzle0, nozzle1);
     
-    
+   public OriginalCard getOriginalCard(){
+       return originalCard;
+   }
+   public GasPumpMachine getGasPumpMachine(){
+       return gasPumpMachine;
+   }   
+ 
+   
     public GasPumpWorld()
     {     
         
@@ -53,8 +60,8 @@ public class GasPumpWorld extends World
         addObject(new MenuButton(6), 100, 220);
         addObject(new MenuButton(7), 100, 280);
         addObject(new CardSlot(), 700, 125);
-        addObject(new Card(0), 800, 125);
-        addObject(new Card(1), 850, 125);
+        addObject(new OriginalCard(), 800, 125);
+        addObject(new DuplicateCard(), 850, 125);
         addObject(new Nozzle(0), 750, 450 );
         addObject(new Nozzle(1), 850, 450 );
         addObject(new ReceiptPrinter(), 700, 250);

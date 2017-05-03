@@ -1,13 +1,8 @@
 import greenfoot.*;  
 
-public class Card extends Actor 
-{
-    int type;
-    static GreenfootImage[] images = {new GreenfootImage("Original.png"), new GreenfootImage("Duplicate.jpeg")}; 
-    public Card(int type){
-        this.type=type;
-        setImage(images[type]);
-    }
+public class OriginalCard extends Actor 
+{ 
+    public OriginalCard(){}
     public void act() 
     {
         int mX, mY ;
