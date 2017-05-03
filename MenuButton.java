@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class LeftMenuButton extends Actor implements IComponent
+public class MenuButton extends Actor implements IComponent
 {
     /**
      * Act - do whatever the LeftMenuButton wants to do. This method is called whenever
