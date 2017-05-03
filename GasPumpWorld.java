@@ -4,6 +4,7 @@ public class GasPumpWorld extends World
 {
     public Screen screen = new Screen();
     
+    //GasPumpMachine(Screen s, Button [] b, MenuButton [] m, CardSlot cs, Card o, Card d, ReceiptPrinter rp, Nozzle n0, Nozzle n1)
     
     public Button [] buttons = {
                                     new Button(1), new Button(2), new Button(3), new Button(12),
@@ -18,14 +19,18 @@ public class GasPumpWorld extends World
                                     new MenuButton(4),new MenuButton(5), new MenuButton(6), new MenuButton(7)                                    
                               };
                               
-   public CardSlot cardslot = new CardSlot();                              
+   public CardSlot cardSlot = new CardSlot();                              
    public Card originalCard = new Card(0);
    public Card duplicateCard =new Card(1);
    
    public ReceiptPrinter receiptPrinter = new ReceiptPrinter();
    
-   public Nozzle fuelType0= new Nozzle(0);
-   public Nozzle fuelType1= new Nozzle(1);   
+   public Nozzle nozzle0= new Nozzle(0);
+   public Nozzle nozzle1= new Nozzle(1); 
+   
+   
+   public GasPumpMachine gasPumpMachine = new GasPumpMachine(screen, buttons, menuButtons, cardSlot, originalCard, duplicateCard, receiptPrinter, nozzle0, nozzle1);
+    
     
     public GasPumpWorld()
     {     
