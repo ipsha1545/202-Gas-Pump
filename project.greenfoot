@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue May 02 22:38:26 PDT 2017
+#Tue May 02 23:37:53 PDT 2017
 class.Receipt.image=Receipt.jpg
 editor.fx.0.height=900
 target2.width=100
@@ -252,6 +252,7 @@ target1.typeParameters=
 target17.type=ClassTarget
 target3.width=80
 target19.y=0
+class.FakeCard.superclass=greenfoot.Actor
 class.IComponent.superclass=
 target19.x=0
 class.Receipt.superclass=greenfoot.Actor

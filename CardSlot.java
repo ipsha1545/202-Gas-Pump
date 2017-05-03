@@ -14,6 +14,24 @@ public class CardSlot extends Actor implements IComponent
      */
     public void act() 
     {
-        // Add your action code here.
+        
+        /*
+      MouseInfo minfo=Greenfoot.getMouseInfo();
+      Card originalCard   = (Card) getOneIntersectingObject(Card.class);  
+      Card duplicateCard  = (Card) getOneIntersectingObject(Card.class);  
+        
+         if(Greenfoot.mouseDragged(originalCard)){
+             if(originalCard != null){
+                if(minfo.getX()>295 && minfo.getX()<395 &&  minfo.getY()>350 && minfo.getY()<480)
+                {   
+           
+                    duplicateCard=null;
+                    getWorld().getBackground().drawImage(new GreenfootImage("Test.png"), 50,450);
+                    GasPumpWorld gpw = (GasPumpWorld) getWorld(); 
+
+                }  
+             }
+        }
+        */
     }    
 }

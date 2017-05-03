@@ -2,4 +2,6 @@
 comment0.target=GasPumpMachine
 comment1.params=s\ b\ m\ cs\ o\ d\ rp\ n0\ n1
 comment1.target=GasPumpMachine(Screen,\ Button[],\ MenuButton[],\ CardSlot,\ Card,\ Card,\ ReceiptPrinter,\ Nozzle,\ Nozzle)
-numComments=2
+comment2.params=
+comment2.target=void\ act()
+numComments=3

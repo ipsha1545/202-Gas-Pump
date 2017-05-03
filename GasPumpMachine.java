@@ -25,5 +25,12 @@ public class GasPumpMachine  extends Actor //implements IComponent
        this.nozzle0=n0;
        this.nozzle1=n1;           
    }
+   
+   public void act(){
+
+         
+    
+    
+   }
     
 }
