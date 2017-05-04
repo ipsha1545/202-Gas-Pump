@@ -8,9 +8,18 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class DuplicateCard extends Actor
 {
-	public DuplicateCard(){}
+   public DuplicateCard(){}
     public void act() 
     {
+        int mX, mY ;
+        
+        if(Greenfoot.mouseDragged(this)) {          
+            MouseInfo m = Greenfoot.getMouseInfo();  
+            mX=m.getX();  
+            mY=m.getY();  
+            setLocation(mX, mY);  
+        } 
+        
         // Add your action code here.
     }    
 }
