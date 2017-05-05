@@ -28,7 +28,8 @@ public class CardSlot extends Actor implements IComponent
                 if(minfo.getX()>700 && minfo.getX()<800 && minfo.getY()>125 && minfo.getY()<200)
                 {                          
                     getWorld().removeObject(dCard);
-                    getWorld().addObject(new displaymessage("Sorry,the card entered is invalid!!!! Please insert a valid card"),350,10);
+                    displaymessage de = new displaymessage("Duplicate credit card");
+                    getWorld().addObject(de,350,100);
                                       
                 }  
              }
