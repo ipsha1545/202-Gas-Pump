@@ -30,6 +30,8 @@ public class CardSlot extends Actor implements IComponent
                     getWorld().removeObject(dCard);
                     displaymessage de = new displaymessage("Duplicate credit card");
                     getWorld().addObject(de,350,100);
+                    Greenfoot.delay(60);
+                    getWorld().removeObject(de);
                                       
                 }  
              }
