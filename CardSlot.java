@@ -16,7 +16,9 @@ public class CardSlot extends Actor implements IComponent
                 if(minfo.getX()>700 && minfo.getX()<800 && minfo.getY()>125 && minfo.getY()<200)
                 {                          
                     getWorld().removeObject(oCard);
-                    Greenfoot.playSound("swipe.wav");                   
+                    Greenfoot.playSound("swipe.wav");
+                    displaymessage d = new displaymessage("Credit card scan was succcessful.Please enter zip code");
+                    getWorld().addObject(d,350,100);
                 }  
              }
              
