@@ -21,6 +21,25 @@ public class CardSlot extends Actor implements IComponent
                     getWorld().addObject(d,350,100);
                     Greenfoot.delay(60);
                     getWorld().removeObject(d);
+                    
+                    /*
+                    
+                MouseInfo mouse = Greenfoot.getMouseInfo();
+                if (Greenfoot.mouseClicked(null))
+                {
+                if (mouse.getX() >= 225 &&
+                mouse.getX() <= 275 &&
+                mouse.getY() >= 375 &&
+                 mouse.getY() <= 425)
+                {
+                    displaymessage d = new displaymessage("1");
+                }
+}
+
+                    
+                    
+                    
+                    */
                 }  
              }
              
