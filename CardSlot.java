@@ -19,6 +19,8 @@ public class CardSlot extends Actor implements IComponent
                     Greenfoot.playSound("swipe.wav");
                     displaymessage d = new displaymessage("Credit card scan was succcessful.Please enter zip code");
                     getWorld().addObject(d,350,100);
+                    Greenfoot.delay(60);
+                    getWorld().removeObject(d);
                 }  
              }
              
