@@ -1,12 +1,5 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+# Gas Pump using Greenfoot APIs
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+### We developed a Gas Pump applications by using Greenfoot APIs in Java. 
+### A credit card can be inserted to pay for the fuel
+### A receipt is generated aftet the payment with an optional 15% discount on car wash
